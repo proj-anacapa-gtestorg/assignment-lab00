@@ -1,0 +1,54 @@
+{
+  "assignment_name": "Counting ducks: Simple I/O and flow control, github command-line setup",
+  "maximum_group_size": 1,
+  "ready": true,
+  "deadline": "2017-02-14 23:59:00-08:00",
+  "expected_files": [
+    "myProg01.cpp",
+    "myProg02.cpp"
+  ],
+  "uneditables": [],
+  "testables": [
+    {
+      "test_name": "myProg01",
+      "build_command": "make myProg01",
+      "test_cases": [
+        {
+          "command": "./myProg01",
+          "points": 30,
+          "kind": "diff",
+          "hide_expected": false,
+          "diff_source": "stdout",
+          "expected": "myProg01.stdout"
+        }
+      ]
+    }, {
+      "test_name": "myProg02",
+      "build_command": "make myProg02",
+      "test_cases": [
+        {
+          "command": "./myProg02 animals01.txt",
+          "points": 30,
+          "kind": "diff",
+          "hide_expected": false,
+          "diff_source": "stdout",
+          "expected": "myProg02_animals01"
+        }, {
+          "command": "./myProg02 animals02.txt",
+          "points": 30,
+          "kind": "diff",
+          "hide_expected": false,
+          "diff_source": "stdout",
+          "expected": "myProg02_animals02"
+        }, {
+          "command": "./myProg02",
+          "points": 30,
+          "kind": "diff",
+          "hide_expected": false,
+          "diff_source": "stderr",
+          "expected": "myProg02_empty_cli"
+        }
+      ]
+    }
+  ]
+}
