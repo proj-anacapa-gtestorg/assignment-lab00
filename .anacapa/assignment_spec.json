@@ -3,6 +3,7 @@
   "maximum_group_size": 1,
   "ready": true,
   "deadline": "2017-02-14 23:59:00-08:00",
+  "starter_repo": "https://github.com/ucsb-cs-test-org-1/starter-lab01",
   "expected_files": [
     "myProg01.cpp",
     "myProg02.cpp"
