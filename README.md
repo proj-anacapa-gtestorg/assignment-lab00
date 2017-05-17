@@ -4,8 +4,6 @@ This comes from the following assignment in submit.cs:
 
 https://submit.cs.ucsb.edu/form/project/627
 
-![screenshot](/images/1.png)
-
 ![screenshot](/images/2.png)
 
 ![screenshot](/images/3.png)
